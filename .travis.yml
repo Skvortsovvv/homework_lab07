@@ -18,5 +18,6 @@ script:
   - cd _build
   - ./check --enable-gcov 
 after_success:
+
   - cd ..
   - coveralls --root . -E ".*gtest.*" -E ".*CMakeFiles.*"

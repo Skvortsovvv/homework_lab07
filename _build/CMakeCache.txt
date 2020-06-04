@@ -273,7 +273,7 @@ googletest-distribution_BINARY_DIR:STATIC=/home/user/Skvortsovvv/workspace/homew
 googletest-distribution_SOURCE_DIR:STATIC=/home/user/Skvortsovvv/workspace/homework/homework_lab05/lab05/third-party/gtest
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/home/user/Skvortsovvv/workspace/homework/homework_lab05/lab05/_build/third-party/gtest/googlemock/gtest
+gtest_BINARY_DIR:STATIC=/home/user/Skvortsovvv/workspace/homework/homework_lab05/lab05/_build/third-party/gtest/googletest
 
 //Dependencies for target
 gtest_LIB_DEPENDS:STATIC=
@@ -498,7 +498,7 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
-generated_dir:INTERNAL=/home/user/Skvortsovvv/workspace/homework/homework_lab05/lab05/_build/third-party/gtest/googlemock/gtest/generated
+generated_dir:INTERNAL=/home/user/Skvortsovvv/workspace/homework/homework_lab05/lab05/_build/third-party/gtest/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

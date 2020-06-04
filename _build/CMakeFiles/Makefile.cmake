@@ -63,7 +63,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "banking/CMakeFiles/CMakeDirectoryInformation.cmake"
   "third-party/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "third-party/gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "third-party/gtest/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "third-party/gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -72,6 +72,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "banking/CMakeFiles/banking.dir/DependInfo.cmake"
   "third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "third-party/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "third-party/gtest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "third-party/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
