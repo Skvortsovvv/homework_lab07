@@ -1,9 +1,10 @@
+  
 #pragma once
 class Account {
  public:
-  Account(int id, int balance);
-  virtual ~Account();
-
+   Account(int id, int balance);
+   Account();
+   virtual ~Account();
   // Virtual to test.
   virtual int GetBalance() const;
 
@@ -16,7 +17,7 @@ class Account {
   // Virtual to test.
   virtual void Unlock();
   int id() const { return id_; }
-  friend bool operator ==(const Account& l, const Account& r);
+
  private:
   int id_;
   int balance_;

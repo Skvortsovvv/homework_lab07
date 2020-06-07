@@ -1,3 +1,4 @@
+  
 #pragma once
 
 class Account;
@@ -7,7 +8,7 @@ class Transaction {
   Transaction();
   virtual ~Transaction();
 
-  bool Make(Account& from, Account& to, int sum);
+  virtual bool Make(Account from, Account to, int sum);
   int fee() const { return fee_; }
   void set_fee(int fee) { fee_ = fee; }
 
